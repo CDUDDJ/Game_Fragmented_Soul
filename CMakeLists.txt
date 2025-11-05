@@ -17,7 +17,7 @@ aux_source_directory(${CMAKE_SOURCE_DIR}/core/src CORE_SRC)
 
 aux_source_directory(${CMAKE_SOURCE_DIR}/src PROJECT_SRC)
 
-add_subdirectory(example)
+add_subdirectory(${CMAKE_SOURCE_DIR}/example)
 
 # add_executable(Fragmented_Soul WIN32 main.cpp ${CORE_SRC} ${PROJECT_SRC})
 # target_link_libraries(Fragmented_Soul PRIVATE SDL3::SDL3 SDL3_image::SDL3_image SDL3_ttf::SDL3_ttf)
