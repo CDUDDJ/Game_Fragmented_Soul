@@ -1,10 +1,10 @@
 #pragma once
 
-#include "camera.hpp"
-#include "collision_manager.hpp"
-#include "game_object.hpp"
-#include "scene.hpp"
-#include "timer.hpp"
+#include "../../core/include/camera.hpp"
+#include "../../core/include/collision_manager.hpp"
+#include "../../core/include/game_object.hpp"
+#include "../../core/include/scene.hpp"
+#include "../../core/include/timer.hpp"
 #include <memory>
 
 namespace project

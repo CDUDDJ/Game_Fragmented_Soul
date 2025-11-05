@@ -1,6 +1,6 @@
 #include "../include/role.hpp"
-#include "../include/input_system.hpp"
-#include "../include/time_tool.hpp"
+#include "../../core/include/input_system.hpp"
+#include "../../core/include/time_tool.hpp"
 #include "../include/trap.hpp"
 #include <SDL3/SDL_log.h>
 

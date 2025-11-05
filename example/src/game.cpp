@@ -1,8 +1,8 @@
 #include "../include/game.hpp"
-#include "../include/constant.hpp"
-#include "../include/input_system.hpp"
-#include "../include/resource_manager.hpp"
-#include "../include/sdl_wrapped.hpp"
+#include "../../core/include/constant.hpp"
+#include "../../core/include/input_system.hpp"
+#include "../../core/include/resource_manager.hpp"
+#include "../../core/include/sdl_wrapped.hpp"
 #include "../include/test_scene.hpp"
 #include <SDL3/SDL_init.h>
 #include <SDL3/SDL_log.h>

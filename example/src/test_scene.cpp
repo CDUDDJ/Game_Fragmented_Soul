@@ -1,5 +1,5 @@
 #include "../include/test_scene.hpp"
-#include "../include/resource_manager.hpp"
+#include "../../core/include/resource_manager.hpp"
 #include "../include/role.hpp"
 #include "../include/trap.hpp"
 

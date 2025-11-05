@@ -1,8 +1,8 @@
-#include "FSM.hpp"
-#include "animation.hpp"
-#include "game_object.hpp"
-#include "timer.hpp"
-#include "vector2.hpp"
+#include "../../core/include/FSM.hpp"
+#include "../../core/include/animation.hpp"
+#include "../../core/include/game_object.hpp"
+#include "../../core/include/timer.hpp"
+#include "../../core/include/vector2.hpp"
 
 namespace project
 {

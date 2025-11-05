@@ -1,5 +1,5 @@
-#include "animation.hpp"
-#include "game_object.hpp"
+#include "../../core/include/animation.hpp"
+#include "../../core/include/game_object.hpp"
 namespace project
 {
 class trap : public game_object

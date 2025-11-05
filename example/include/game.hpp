@@ -1,8 +1,8 @@
 #ifndef GAME_HPP
 #define GAME_HPP
 
-#include "../include/scene_manager.hpp"
-#include "standard_type.hpp"
+#include "../../core/include/scene_manager.hpp"
+#include "../../core/include/standard_type.hpp"
 #include <SDL3/SDL_render.h>
 #include <SDL3/SDL_video.h>
 
