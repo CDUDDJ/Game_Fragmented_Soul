@@ -1,0 +1,3 @@
+[submodule "sgf"]
+	path = sgf
+	url = https://github.com/TPPPP72/sgf.git

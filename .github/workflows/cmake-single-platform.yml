@@ -1,0 +1,30 @@
+name: CMake on a single platform
+
+on:
+  push:
+    branches: [ "main", "test" ]
+
+  pull_request:
+    branches: [ "main", "test" ]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  BUILD_TYPE: Release
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: recursive
+        
+    - name: Configure
+      run: cmake -B build -DCMAKE_BUILD_TYPE=Release
+      
+    - name: Build
+      run: cmake --build build --config Release --parallel
