@@ -3,7 +3,7 @@ project(fragmented_soul)
 
 add_subdirectory(sgf)
 
-add_executable(fragmented_soul WIN32)
+add_executable(fragmented_soul)
 
 target_compile_features(fragmented_soul PRIVATE cxx_std_17)
 
